@@ -120,6 +120,7 @@ h3 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 52px;
+    padding-bottom: 75px;
 }
 
 .upper-body-text {
@@ -128,3 +129,27 @@ h3 {
 }
 
 /* MIDDLE BODY */
+
+.middle-body {
+    background-color: #e5e7eb;
+}
+
+.quote { 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 75px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    margin-right: 350px;
+    margin-left: 300px;
+    padding-bottom: 75px;
+}
